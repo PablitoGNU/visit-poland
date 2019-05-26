@@ -26,16 +26,32 @@
     
 }
 
-
-
 .container-margin {
     margin-top: 25px;
 }
 
-
-
+.city {
+ font-family: 'Coiny', sans-serif;
+ text-align: center;
+ font-size: 35px;
+ font-weight: 500;
+ color: #ffffff;
+ 
+}
 
 .nav-link:hover {
  color: #ffffff;
  font-weight: 400;
+}
+
+
+/* ----------------------------------------------FOOTER */
+
+.footer-link {
+ font-family: 'Coiny', sans-serif;
+ font-size: 35px;
+ font-weight: 500;
+ color: #e4032c;
+ transition: 1.0s;
+    
 }
