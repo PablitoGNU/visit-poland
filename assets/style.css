@@ -46,8 +46,9 @@
  background-color: #ffffff;
  color: #e4032c;
  margin-top: 30px;
+ border: none;
  font-family: 'Coiny', sans-serif;
- transition: 1.0s;
+ transition: 1.5s;
 }
 
 
