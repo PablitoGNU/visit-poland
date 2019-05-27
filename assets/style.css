@@ -128,7 +128,7 @@ color: #e4032c;
     
 /* ----------------------------------------------MEDIAQ */
 @media only screen and (min-width: 480px) {
-  #carouselExampleControls {
+  #karuzela {
     display: none;
   }
 }
@@ -157,15 +157,3 @@ color: #e4032c;
  width: 100%;
 }
 
-
-@media only screen and (min-width: 480px) {
-  #karuzela {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  #photos {
-    display: none;
-  }
-}
