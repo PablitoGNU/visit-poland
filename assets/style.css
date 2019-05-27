@@ -16,12 +16,15 @@
     font-family: 'Coiny', sans-serif;
     font-weight: 400;
 }
+.display-4 span {
+  color: #e4032c;
+}
 
 .nav-link {
  font-family: 'Coiny', sans-serif;
  font-size: 25px;
  font-weight: 500;
- color: #e4032c;
+ color: #ffffff;
  transition: 1.0s;
     
 }
@@ -62,13 +65,10 @@
  transition: width 0.4s linear;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder { 
   color: #ffffff;
-  opacity: 1; /* Firefox */
+  opacity: 1; 
 }
-
-
-    
 
 .search_icon{
  height: 40px;
@@ -89,9 +89,8 @@
  margin-right: 18px;
  border: none;
  font-family: 'Coiny', sans-serif;
- transition: 1.5s;
+ transition: 1.3s;
 }
-
 
 
 /* ----------------------------------------------FOOTER */
@@ -103,9 +102,9 @@ img {
  width: 30%;
 }
 
-/* ----------------------------------------------HOOVER */
+/* ----------------------------------------------HOOVERS */
 .nav-link:hover {
- color: #ffffff;
+ color: #e4032c;
  font-weight: 400;
 }
 
@@ -125,7 +124,16 @@ background: #ffffff;
 color: #e4032c;
 }
     
+/* ----------------------------------------------TEMP */
+.img1 {
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+ width: 70%;
+}
 
 
-
-
+.img2 {
+ width: 100%;
+}
