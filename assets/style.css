@@ -10,15 +10,17 @@
 
 /* ----------------------------------------------HEADER */
 .display-4 {
-    text-align: left;
-    margin-top: 15px;
-    color: #ffffff;
-    font-family: 'Coiny', sans-serif;
-    font-weight: 400;
+ text-align: left;
+ margin-top: 15px;
+ color: #ffffff;
+ font-family: 'Coiny', sans-serif;
+ font-weight: 400;
 }
+
 .display-4 span {
-  color: #e4032c;
+ color:#e4032c;
 }
+ 
 
 .nav-link {
  font-family: 'Coiny', sans-serif;
@@ -31,7 +33,7 @@
 
 /* ----------------------------------------------Margins */
 .container-margin {
-    margin-top: 25px;
+ margin-top: 25px;
 }
 
 
@@ -124,6 +126,23 @@ background: #ffffff;
 color: #e4032c;
 }
     
+/* ----------------------------------------------MEDIAQ */
+@media only screen and (min-width: 480px) {
+  #carouselExampleControls {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #photos {
+    display: none;
+  }
+}
+
+
+
+
+
 /* ----------------------------------------------TEMP */
 .img1 {
   display: block;
@@ -136,4 +155,17 @@ color: #e4032c;
 
 .img2 {
  width: 100%;
+}
+
+
+@media only screen and (min-width: 480px) {
+  #karuzela {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #photos {
+    display: none;
+  }
 }
