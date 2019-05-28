@@ -126,7 +126,7 @@ background: #ffffff;
 color: #e4032c;
 }
     
-/* ----------------------------------------------MEDIAQ */
+/* ----------------------------------------------MEDIAQ carousel just on the screens below 480px */
 @media only screen and (min-width: 481px) {
   #karuzela {
     display: none;
@@ -138,7 +138,7 @@ color: #e4032c;
     display: none;
   }
 }
-
+/* ----------------------------------------------MEDIAQ content center for header screens below 480px */
 @media only screen and (max-width: 480px) {
   .center {
   text-align: center;
