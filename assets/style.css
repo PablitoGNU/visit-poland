@@ -53,7 +53,7 @@
  height: 60px;
  background-color: #333;
  border-radius: 30px;
- padding: 10px;
+ color: #ffffff;
   
 }
 
@@ -127,7 +127,7 @@ color: #e4032c;
 }
     
 /* ----------------------------------------------MEDIAQ */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 481px) {
   #karuzela {
     display: none;
   }
@@ -139,8 +139,12 @@ color: #e4032c;
   }
 }
 
-
-
+@media only screen and (max-width: 480px) {
+  .center {
+  text-align: center;
+  justify-content:center;
+  }
+}
 
 
 /* ----------------------------------------------TEMP */
