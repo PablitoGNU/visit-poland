@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,19 +9,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Visit Poland</title>
+    <style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
 </head>
 
 <!-- body background -->
 <body class="BG1">
 <!-- heading and nav -->
 <header class="container">
-  <h1 class="display-4 center">VISIT <span>POLAND</span></h1>
+  <h1 class="display-4 center" id="HOME">VISIT <span>POLAND</span></h1>
   <div class="d-flex flex-row-reverse">
   <ul class="nav navbar-fixed center">
   <li class="nav-item">
-  <a class="nav-link" href="index.html">HOME</a>
+  <a class="nav-link" href="index.html" id="HOME">HOME</a>
   </li>
   <li class="nav-item">
   <a class="nav-link" href="#CITY">CITY</a>
@@ -151,7 +157,9 @@
 <!-- end of carousel -->
 <div class="container container-margin">
 <!-- Search City Google API -->
-<h2 class="city" id="CITY">CITY</h2>
+<div>
+<a class="nav-link city" href="#HOME"<h2 class="city" id="CITY">CITY</h2></a>
+</div>
 <div class="d-flex justify-content-center">
 <div class="searchbar">
 <input class="search_input" type="text" name="" placeholder="Search...">
@@ -170,7 +178,7 @@
 </div>
 <div class="container container-margin">
 <!-- Skyscanner  API -->
-<h2 class="city" id="FLIGHTS">FLIGHTS</h2>
+<a class="nav-link city" href="#HOME"<h2 id="FLIGHTS">FLIGHTS</h2></a>
 <img class="img1" src="assets/images/image11.jpg" alt="Image of Polish Flag heart shaped">
 <!-- end of Skyscanner API -->
 </div>
@@ -183,9 +191,9 @@
     <a  class="nav-link" target="_blank" href="http://www.pfcc.eu/ang/main.php?nazwa=start">CAMPSITES IN POLAND</a>
     <a  class="nav-link" target="_blank" href="http://www.go-poland.pl/">GO POLAND</a>
     </div>
-    <div class="container">
+    
     <div class="row d-flex justify-content-center">
-    <a href="index.html"><img src="assets/images/image9.jpg" class="img-fluid rounded-circle" alt="Image of Polish Flag heart shaped">
+    <a href="index.html"><img class="img-fluid rounded-circle img3" src="assets/images/image9.jpg"  alt="Image of Polish Flag heart shaped">
     </a>
     </div>
     </div>

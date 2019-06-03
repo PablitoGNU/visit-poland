@@ -1,0 +1,162 @@
+/* ----------------------------------------------FONTS */
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+
+/* ----------------------------------------------BACKGROUND */
+.BG1 {
+    background-color: #333;
+}
+
+
+/* ----------------------------------------------HEADER */
+.display-4 {
+ text-align: left;
+ margin-top: 15px;
+ color: #ffffff;
+ font-family: 'Coiny', sans-serif;
+ font-weight: 400;
+}
+
+.display-4 span {
+ color:#e4032c;
+}
+ 
+
+.nav-link {
+ font-family: 'Coiny', sans-serif;
+ font-size: 25px;
+ font-weight: 500;
+ color: #ffffff;
+ transition: 1.0s;
+    
+}
+
+/* ----------------------------------------------Margins */
+.container-margin {
+ margin-top: 25px;
+}
+
+
+/* ----------------------------------------------Search City */
+.city {
+ font-family: 'Coiny', sans-serif;
+ text-align: center;
+ font-size: 25px;
+ font-weight: 500;
+ color: #ffffff;
+ 
+}
+
+.searchbar {
+ margin-bottom: auto;
+ margin-top: auto;
+ height: 60px;
+ background-color: #333;
+ border-radius: 30px;
+ color: #ffffff;
+  
+}
+
+.search_input {
+ font-family: 'Coiny', sans-serif;
+ border: 0;
+ outline: 0;
+ background: none;
+ width: 0;
+ line-height: 40px;
+ transition: width 0.4s linear;
+}
+
+::placeholder { 
+  color: #ffffff;
+  opacity: 1; 
+}
+
+.search_icon{
+ height: 40px;
+ width: 40px;
+ float: right;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ color:white;
+}
+
+.buttons{
+ background-color: #ffffff;
+ color: #e4032c;
+ margin-top: 30px;
+ margin-left: 18px;
+ margin-right: 18px;
+ border: none;
+ font-family: 'Coiny', sans-serif;
+ transition: 0.8s;
+}
+
+
+/* ----------------------------------------------FOOTER */
+
+.img3 {
+  width: 70%;
+}
+
+/* ----------------------------------------------HOOVERS */
+.nav-link:hover {
+ color: #e4032c;
+ font-weight: 400;
+}
+
+.buttons:hover {
+ background-color: #e4032c;
+
+}
+
+.searchbar:hover > .search_input{
+width: 250px;
+color:#e4032c;
+transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon{
+background: #ffffff;
+color: #e4032c;
+}
+    
+/* ----------------------------------------------MEDIAQ carousel just on the screens below 480px */
+@media only screen and (min-width: 481px) {
+  #karuzela {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #photos {
+    display: none;
+  }
+}
+/* ----------------------------------------------MEDIAQ content center for header screens below 480px */
+@media only screen and (max-width: 480px) {
+  .center {
+  text-align: center;
+  justify-content:center;
+  }
+}
+
+
+
+
+/* ----------------------------------------------TEMP */
+.img1 {
+  display: block;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+ width: 70%;
+}
+
+
+.img2 {
+ width: 100%;
+}
+
