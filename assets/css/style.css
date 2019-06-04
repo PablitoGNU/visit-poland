@@ -80,7 +80,7 @@
  justify-content: center;
  align-items: center;
  border-radius: 50%;
- color:white;
+ color:#ffffff;
 }
 
 .buttons{
@@ -94,17 +94,21 @@
  transition: 0.8s;
 }
 
+#map{
+    width: 100%;
+    height: 500px;
+    
+}
 
 /* ----------------------------------------------FOOTER */
 
-.img3 {
-  width: 70%;
-}
 
 /* ----------------------------------------------HOOVERS */
 .nav-link:hover {
  color: #e4032c;
  font-weight: 400;
+
+ 
 }
 
 .buttons:hover {
@@ -116,11 +120,13 @@
 width: 250px;
 color:#e4032c;
 transition: width 0.4s linear;
+
 }
 
 .searchbar:hover > .search_icon{
 background: #ffffff;
 color: #e4032c;
+
 }
     
 /* ----------------------------------------------MEDIAQ carousel just on the screens below 480px */
