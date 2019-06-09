@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Visit Poland</title>
     <style>
-html {
-  scroll-behavior: smooth;
+    html {
+    scroll-behavior: smooth;
 }
 </style>
 </head>
@@ -23,16 +23,16 @@ html {
 <!-- heading and nav -->
 <header class="container">
   <h1 class="display-4 center" id="HOME">VISIT <span>POLAND</span></h1>
-  <div class="d-flex flex-row-reverse">
+  <div class="d-flex flex-row-reverse fixed">
   <ul class="nav navbar-fixed center">
   <li class="nav-item">
-  <a class="nav-link" href="index.html" id="HOME">HOME</a>
+  <a class="nav-link" href="#HOME">HOME</a>
   </li>
   <li class="nav-item">
   <a class="nav-link" href="#CITY">CITY</a>
   </li>
   <li class="nav-item">
-  <a class="nav-link" href="#FLIGHTS">FLIGHTS</a>
+  <a class="nav-link" target="_blank" href="https://www.skyscanner.ie">FLIGHTS</a>
   </li>
   </ul>
 </div>
@@ -44,11 +44,15 @@ html {
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/stEuQamTLXw" allowfullscreen></iframe>
 </div>
+
 <!-- end of video -->
 </main>
 
-<section class="container container-margin" id=photos>
-<!-- section/images/links -->
+<section>
+<!-- section start -->
+
+<div class="container container-margin" id="photos">
+<!-- container for images/links for large screens -->
 
 <div class="row">
 
@@ -95,12 +99,10 @@ html {
   </div>
   </div>
 <!-- end of section/images/links -->
+</div>
 
-</section>
-
-
-<section class="container container-margin" id=karuzela>
- <!-- carousel -->
+<div class="container container-margin" id="karuzela">
+ <!-- container for carousel/small screens-->
  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
  <div class="carousel-inner">
  <div class="carousel-item active">
@@ -153,50 +155,50 @@ html {
  <span class="sr-only">Next</span>
  </a>
  </div>
-</section>
-<!-- end of carousel -->
+</div>
+<!-- end of carousel for small screen-->
+
+
 <div class="container container-margin">
-<!-- Search City Google API -->
+<!-- container for Search City Google API -->
 <div>
-<a class="nav-link city" href="#HOME"<h2 class="city" id="CITY">CITY</h2></a>
+<a class="nav-link city" href="#HOME"<h2 id="CITY">CITY</h2> <i class="fa fa-arrow-circle-up"></i></a>
 </div>
 <div class="d-flex justify-content-center">
 <div class="searchbar">
-<input class="search_input" type="text" name="" placeholder="Search...">
+<input class="search_input" type="text" name="" placeholder="Search..." id="autocomplete">
 <a class="search_icon"><i class="fa fa-search"></i></a>
 </div>
 </div>
 <div class="row d-flex justify-content-center">
-<button type="button" class="btn btn-primary btn-sm buttons">ATTRACTIONS</button>
-<button type="button" class="btn btn-primary btn-sm buttons">ACCOMMODATION</button>
-<button type="button" class="btn btn-primary btn-sm buttons">BARS & RESTAURANTS</button>
+<button type="button" class="btn btn-primary btn-sm buttons" id="ATTRACTIONS">ATTRACTIONS</button>
+<button type="button" class="btn btn-primary btn-sm buttons" id="ACCOMMODATION">ACCOMMODATION</button>
+<button type="button" class="btn btn-primary btn-sm buttons" id="BARS & RESTAURANTS">BARS & RESTAURANTS</button>
 </div>
 <div class="container container-margin" id="map">
-<!-- end of Search City Google API -->
+<!-- end of container for Search City Google API -->
 </div>
-<div class="container container-margin">
-<!-- Skyscanner  API -->
-<a class="nav-link city" href="#HOME"<h2 id="FLIGHTS">FLIGHTS</h2></a>
-<img class="img1" src="assets/images/image11.jpg" alt="Image of Polish Flag heart shaped">
-<!-- end of Skyscanner API -->
-</div>
-<footer>
+
+<!-- section end -->
+</section>
+
+<footer class="container footer-margin">
 <!-- footer nav/links/ -->
-    <div class="container">
     <div class="row d-flex justify-content-center">
     <a  class="nav-link" target="_blank" href="http://rozklad-pkp.pl/en">TRAIN TIMETABLE </a>
     <a  class="nav-link" target="_blank" href="https://www.xe.com/currencyconverter/convert/?Amount=1&From=EUR&To=PLN">BUREAUX DE CHANGE </a>
     <a  class="nav-link" target="_blank" href="http://www.pfcc.eu/ang/main.php?nazwa=start">CAMPSITES IN POLAND</a>
-    <a  class="nav-link" target="_blank" href="http://www.go-poland.pl/">GO POLAND</a>
+    <a  class="nav-link" target="_blank" href="http://go-poland.pl/">GO POLAND</a>
+    <a href="#HOME" <i class="fa fa-home home-button"></i></a>
     </div>
-<!-- end of footer nav/links/ -->
+    <!-- end of footer nav/links/ -->
 </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy27ZxPv5JG5CT5_GSYjAg3kjRXr51Lrc&libraries=places&callback=initMap" async defer></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy27ZxPv5JG5CT5_GSYjAg3kjRXr51Lrc&libraries=places&callback=initMap"></script>
 </body>
 </html>
