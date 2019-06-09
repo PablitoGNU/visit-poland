@@ -9,12 +9,15 @@
 
 
 /* ----------------------------------------------HEADER */
+
 .display-4 {
  text-align: left;
  margin-top: 15px;
  color: #ffffff;
  font-family: 'Coiny', sans-serif;
  font-weight: 400;
+ 
+ 
 }
 
 .display-4 span {
@@ -102,11 +105,30 @@
 
 /* ----------------------------------------------FOOTER */
 
+.footer-margin {
+ margin-top: 35px;
+ margin-bottom: 25px;
+ 
+}
+
+
+.home-button {
+ font-size: 25px;
+ color: #ffffff;
+ transition: 1.0s;
+    
+}
 
 /* ----------------------------------------------HOOVERS */
 .nav-link:hover {
  color: #e4032c;
  font-weight: 400;
+
+ 
+}
+
+.home-button:hover {
+ color: #e4032c;
 
  
 }
@@ -129,20 +151,20 @@ color: #e4032c;
 
 }
     
-/* ----------------------------------------------MEDIAQ carousel just on the screens below 480px */
-@media only screen and (min-width: 481px) {
+/* ----------------------------------------------MEDIAQ carousel just on the screens below 500px */
+@media only screen and (min-width: 500px) {
   #karuzela {
     display: none;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 501px) {
   #photos {
     display: none;
   }
 }
-/* ----------------------------------------------MEDIAQ content center for header screens below 480px */
-@media only screen and (max-width: 480px) {
+/* ----------------------------------------------MEDIAQ content center for header screens below 500px */
+@media only screen and (max-width: 500px) {
   .center {
   text-align: center;
   justify-content:center;
@@ -152,17 +174,4 @@ color: #e4032c;
 
 
 
-/* ----------------------------------------------TEMP */
-.img1 {
-  display: block;
-  margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
- width: 70%;
-}
-
-
-.img2 {
- width: 100%;
-}
 
