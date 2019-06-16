@@ -5,7 +5,8 @@
       var markers = [];
       var MARKER_PATH1 = "assets/images/markers/attractions";
       var MARKER_PATH2 = "assets/images/markers/hotel";
-      var MARKER_PATH3 = "assets/images/markers/barsandresturant";
+      var MARKER_PATH3 = "assets/images/markers/resturant";
+      var MARKER_PATH4 = "assets/images/markers/bar";
       var hostnameRegexp = new RegExp('^https?://.+?/');
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -65,7 +66,7 @@
               // Use marker animation to drop the icons incrementally on the map.
               markers[i] = new google.maps.Marker({
                 position: results[i].geometry.location,
-                animation: google.maps.Animation.DROP,
+                animation: google.maps.Animation.BOUNCE,
                 icon: markerIcon
               });
               // If the user clicks on marker, show the details of that place
@@ -97,7 +98,7 @@
               // Use marker animation to drop the icons incrementally on the map.
               markers[i] = new google.maps.Marker({
                 position: results[i].geometry.location,
-                animation: google.maps.Animation.DROP,
+                animation: google.maps.Animation.BOUNCE,
                 icon: markerIcon
               });
               // If the user clicks a hotel marker, show the details of that place
@@ -113,10 +114,10 @@
 
       // Search for bars,restaurants,cafe in the selected city, within the viewport of the map.
 
-      barsandresturant.addEventListener("click", function search() {
+      resturants.addEventListener("click", function search() {
         var search = {
           bounds: map.getBounds(),
-          types: ["bar", "restaurant", "cafe"]
+          types: ["restaurant"]
         };
 
         places.nearbySearch(search, function(results, status) {
@@ -131,7 +132,7 @@
               // Use marker animation to drop the icons incrementally on the map.
               markers[i] = new google.maps.Marker({
                 position: results[i].geometry.location,
-                animation: google.maps.Animation.DROP,
+                animation: google.maps.Animation.BOUNCE,
                 icon: markerIcon
               });
               // If the user clicks a place of interest marker, show the details of that place
@@ -145,6 +146,42 @@
         });
       });
 
+      // Search for bars,restaurants,cafe in the selected city, within the viewport of the map.
+
+      bars.addEventListener("click", function search() {
+        var search = {
+          bounds: map.getBounds(),
+          types: ["bar", "cafe"]
+        };
+
+        places.nearbySearch(search, function(results, status) {
+          if (status === google.maps.places.PlacesServiceStatus.OK) {
+
+            clearMarkers();
+            // Create a marker for each place found, and
+            
+            for (var i = 0; i < results.length; i++) {
+              //var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
+              var markerIcon = MARKER_PATH4 + '.png';
+              // Use marker animation to drop the icons incrementally on the map.
+              markers[i] = new google.maps.Marker({
+                position: results[i].geometry.location,
+                animation: google.maps.Animation.BOUNCE,
+                icon: markerIcon
+              });
+              // If the user clicks a place of interest marker, show the details of that place
+              // in an info window.
+              markers[i].placeResult = results[i];
+              google.maps.event.addListener(markers[i], 'click', showInfoWindow);
+              setTimeout(dropMarker(i), i * 100);
+
+            }
+          }
+        });
+      });
+      
+      
+      
       // Drop markers
       function dropMarker(i) {
         return function() {
@@ -181,8 +218,7 @@
       function buildIWContent(place) {
         document.getElementById('iw-icon').innerHTML = '<img class="" ' +
           'src="' + place.icon + '"/>';
-        document.getElementById('iw-url').innerHTML = '<b><a href="' + place.url +
-          '">' + place.name + '</a></b>';
+        document.getElementById('iw-url').innerHTML = '<b>' + place.name + '</b>';
         document.getElementById('iw-address').textContent = place.vicinity;
 
         if (place.formatted_phone_number) {
