@@ -63,6 +63,7 @@ This website is responsive and has been tested using "Responsive Design Mode" fr
 ### Wireframes
 
 Wireframes for 3 types of resolution are stored in /assets/wireframes folder,  [link](/assets/wireframes). 
+Embedded youtube video was added when I was deploying the website so is missing in the documentation.
 
 ### How to run your website locally.
 
