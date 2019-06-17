@@ -36,7 +36,7 @@ To keep the same layout of the website on the small screen, media Q is implement
     2. CSS,
     3. BOOTSTRAP,
     4. JS,
-    5. Google Maps Javascript API.
+    5. Google Maps/Places Javascript API.
     
 ### Technical information and Testing
 

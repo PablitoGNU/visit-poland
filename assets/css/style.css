@@ -68,7 +68,7 @@
  background: none;
  width: 0;
  line-height: 40px;
- transition: width 0.4s linear;
+ transition: width 0.4s linear
 }
 
 ::placeholder { 
@@ -190,7 +190,7 @@ transition: width 0.4s linear;
 }
 
 .searchbar:hover > .search_icon{
-background: #ffffff;
+background: #e4032c;
 color: #e4032c;
 
 }
