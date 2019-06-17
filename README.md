@@ -64,9 +64,6 @@ This website is responsive and has been tested using "Responsive Design Mode" fr
 
 Wireframes for 3 types of resolution are stored in /assets/wireframes folder,  [link](/assets/wireframes). 
 
-Search fligts directly from website will be added in the future, for now there is link to skyscanner website.
-
-
 ### How to run your website locally.
 
 *Just click the link*
@@ -76,6 +73,8 @@ Search fligts directly from website will be added in the future, for now there i
 ### Acknowledgements
 
 This is my second project for Code Institute. 
+
+Search fligts directly from website will be added in the future, for now there is link to skyscanner website
 
 ### Disclaimer
 
