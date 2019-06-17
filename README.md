@@ -52,7 +52,7 @@ This website use the Google Maps and Google Places API to provide search results
 
 Javascript file to interact with Google MAPS API is stored in /assets/js/maps.js.
 
-Documentation;
+Documentation used;
 
 *Google Maps Javascript API*(https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch)
 
