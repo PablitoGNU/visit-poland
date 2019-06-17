@@ -170,17 +170,19 @@ color: #ffffff;
 }
     
 /* ----------------------------------------------MEDIAQ carousel just on the screens below 500px */
-@media only screen and (min-width: 500px) {
+
+@media only screen and (min-width: 501px) {
   #karuzela {
     display: none;
   }
 }
 
-@media only screen and (max-width: 501px) {
+@media only screen and (max-width: 500px) {
   #photos {
     display: none;
   }
 }
+
 /* ----------------------------------------------MEDIAQ content center for header screens below 500px */
 @media only screen and (max-width: 500px) {
   .center {
