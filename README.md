@@ -18,7 +18,7 @@ Users have ability to search for their holiday destination in Poland, find touri
 ### Details
 
 * Nav links will move users thorugh the page, *color* is changing on them from white to red.
-* CITY will move users down where they can search for their holiday destination, find tourist attractions, find accommodation, find bars and restaurants.
+* CITY will move users down where they can search for their holiday destination, find tourist attractions, find accommodation, find bars and restaurants. Google Maps and Google Places API is used to provide search results.
 * FLIGHTS This is a link to skyscanner website, where users can search for flights. It will open in the new tab.
 * VIDEO Embedded youtube video, This is animated history of Poland, by watching this short video users will be able to discover major events in polish history. 
 * PICTURES Placed to arouse users interest, each picture is a link to provide more information.
