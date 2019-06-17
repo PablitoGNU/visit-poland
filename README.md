@@ -17,7 +17,7 @@ Website contains a bit of history of Poland, some sample pictures of places to s
 Additionally users have ability to search for their holiday destination in Poland. 
 Users are able to choose destination city, find tourist attractions, find accommodation, find bars and restaurants.
 
-### Details;
+### Details
 
 * Nav links will move users thorugh the page, *color* is changing on them from white to red.
 * CITY will move users down where they can search for their holiday destination, find tourist attractions, find accommodation, find bars and restaurants.
@@ -26,7 +26,7 @@ Users are able to choose destination city, find tourist attractions, find accomm
 * PICTURES Placed to arouse users interest, each picture is a link to provide more information.
 * FOOTER Contains links to additional resources, home icon will move user to the top of the website. 
 
-### Users Stories;
+### Users Stories
 
 I wanted to keep the website clean and simple as much as possible. My idea was to use just two colors, spent some time thinking about background color. Finally I have decided for dark background.
 I did not expect that the final effect will look so good. To keep the website clean I used Bootstrap carousel plugin for small screens, orginal breakpoint was set to 481px but it was increased to 501px as per advice from mentor.
