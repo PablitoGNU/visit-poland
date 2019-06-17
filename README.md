@@ -1,16 +1,15 @@
 ## Visit Poland
 
-##### This is my offical website to promote Poland as a touristics Destination. #####
+## This is my offical website to promote Poland as a touristics Destination. ##
 
 
 ### UX
 
-*This website will give users ability to explore Poland.*
-
-*This is a single page website.* 
+#### This is a single page website,This website will give users ability to explore Poland.
 
 
-#### Home Page 
+
+### Home Page 
 
 White&Red is placed on dark background.These two colors are defined in the Polish constitution as the national colors.
 Website contains a bit of history of Poland, some sample pictures of places to see and of popular dishes. 
