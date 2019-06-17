@@ -106,36 +106,10 @@
 
 /* ----------------------------------------------GOOGLE API INFOWINDOW */
 
-
-
-#iw-address {
+.infowindow {
  font-family: 'Coiny', sans-serif;
  font-size: 15px;
  color: #e4032c;
-
- 
-}
-
-#iw-phone {
- font-family: 'Coiny', sans-serif;
- font-size: 15px;
- color: #e4032c;
-
- 
-}
-
-#iw-rating{
- font-family: 'Coiny', sans-serif;
- font-size: 15px;
- color: #e4032c
-
- 
-}
-
-#iw-website{
- font-family: 'Coiny', sans-serif;
- font-size: 15px;
- color: #e4032c
 
  
 }
