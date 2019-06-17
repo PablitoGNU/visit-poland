@@ -27,7 +27,7 @@ Users are able to choose destination city, find tourist attractions, find accomm
 
 ### Users Stories
 
-I wanted to keep the website clean and simple as much as possible. My idea was to use just two colors, spent some time thinking about background color. Finally I have decided for dark background.
+I wanted to keep the website clean and simple as much as possible. My idea was to use just two colors, spent some time thinking about the background color. Finally I have decided for dark background.
 I did not expect that the final effect will look so good. To keep the website clean I used Bootstrap carousel plugin for small screens, orginal breakpoint was set to 481px but it was increased to 501px as per advice from mentor.
 I've tried to use sticky header(fixed) when scrolling down/up but I didn't like it so decided to use simple up arrow in the city and home icon in footer to provide movement by click, Scroll behavior smooth is implemented.
 Color/font style in the marker Infowindow has been changed to keep consistency across the website.
@@ -44,22 +44,28 @@ To keep the same layout of the website on the small screen, media Q is implement
 ### Technical information and Testing
 
 This website has been created in Cloud9. The Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
-All photos are stored locally in the /assets/images/ folder.
+
+The pictures used on this website were obtained by using google image search, stored locally in the /assets/images/ folder. 
+
 CSS stylesheet is stored in /assets/css folder.
-Markers for Google maps are stored in /asets/images/markers folder.
+
 This website use the Google Maps and Google Places API to provide search results as per UX section.
-Javascript to interact with Google MAPS API is stored in /assets/js/maps.js.
+
+Javascript file to interact with Google MAPS API is stored in /assets/js/maps.js.
+
 Documentation;
 
 *Google Maps Javascript API*(https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch)
 
-Markers are taken from icones8.com(https://icons8.com/icons).
+Markers for map are taken from icones8.com(https://icons8.com/icons) and are stored in /asets/images/markers folder.
 
 This website is responsive and has been tested using "Responsive Design Mode" from Firefox Web Developer and also using Chrome DevTools.
 
 ### Wireframes
 
-Wireframes for 3 types of resolution are stored in /assets/wireframes folder,  [link](/assets/wireframes). Search fligts directly from website will be added in the future, for now there is link to skyscanner website.
+Wireframes for 3 types of resolution are stored in /assets/wireframes folder,  [link](/assets/wireframes). 
+
+Search fligts directly from website will be added in the future, for now there is link to skyscanner website.
 
 
 ### How to run your website locally.
