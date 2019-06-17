@@ -3,6 +3,7 @@
 
 
 /* ----------------------------------------------BACKGROUND */
+
 .BG1 {
     background-color: #333;
 }
@@ -216,37 +217,3 @@ color: #e4032c;
 
 
 
-#iw-icon {
-   background-color: #e4032c;
-   
-}
-
-#iw-url {
- background-color: #ffffff;
- font-family: 'Coiny', sans-serif;;
- color: #e4032c;;
-}
-
-#iw-address {
- font-family: 'Coiny', sans-serif;
- font-size: 15px;
- color: #e4032c;
-}
-
-#iw-phone {
- font-family: 'Coiny', sans-serif;
- font-size: 15px;
- color: #e4032c;
-}
-
-#iw-rating{
- font-family: 'Coiny', sans-serif;
- font-size: 15px;
- color: #e4032c
-}
-
-#iw-website{
- font-family: 'Coiny', sans-serif;
- font-size: 15px;
- color: #e4032c
-}

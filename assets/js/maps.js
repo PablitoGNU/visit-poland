@@ -8,6 +8,7 @@
       var MARKER_PATH3 = "assets/images/markers/resturant";
       var MARKER_PATH4 = "assets/images/markers/bar";
       var hostnameRegexp = new RegExp('^https?://.+?/');
+      
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 6,
@@ -74,7 +75,7 @@
               markers[i].placeResult = results[i];
               google.maps.event.addListener(markers[i], 'click', showInfoWindow);
               setTimeout(dropMarker(i), i * 100);
-}
+            }
             
           }
         });
@@ -112,7 +113,7 @@
         });
       });
 
-      // Search for bars,restaurants,cafe in the selected city, within the viewport of the map.
+      // Search for restaurants in the selected city, within the viewport of the map.
 
       resturants.addEventListener("click", function search() {
         var search = {
@@ -146,7 +147,7 @@
         });
       });
 
-      // Search for bars,restaurants,cafe in the selected city, within the viewport of the map.
+      // Search for bars,cafe in the selected city, within the viewport of the map.
 
       bars.addEventListener("click", function search() {
         var search = {

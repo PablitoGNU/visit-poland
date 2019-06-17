@@ -28,6 +28,7 @@ I wanted to keep the website clean and simple as much as possible. My idea was t
 I did not expect that the final effect will look so good. To keep the website clean, used Bootstrap carousel plugin for small screens, orginal breakpoint was set to 481px but it was increased to 501px as per advice from mentor.
 I've tried to use sticky header(fixed) when scrolling down/up but I didn't like it so decided to use simple up arrow in the city and home icon in footer to provide movement by click, Scroll behavior smooth is implemented.
 Color/font style in the marker Infowindow has been changed to keep consistency across the website.
+To keep the same layout of the website on the small screen, media Q is implemented to center the header.
 
 ### Technologies Used
 
