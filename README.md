@@ -5,12 +5,12 @@
 
 ### UX
 
-*This website will give users ability to explore Poland*
+*This website will give users ability to explore Poland.*
 
-*This is single page website* 
+*This is a single page website.* 
 
-*Home Page* White/Red color is placed on nice dark background.These two colors are defined in the Polish constitution as the national colors.
- Website contains a bit of history of Poland, some sample pictoures of places to see and popular dishes. Additionally users have ability to search for their holiday destination in Poland. 
+*Home Page* White/Red color is placed on dark background.These two colors are defined in the Polish constitution as the national colors.
+ Website contains a bit of history of Poland, some sample pictures of places to see and of popular dishes. Additionally users have ability to search for their holiday destination in Poland. 
  Users are able to choose destination city, Find tourist attractions, Find accommodation, Find bars and restaurants.
 
 Details,
@@ -51,7 +51,8 @@ Documentation;
 *Google Maps Javascript API*(https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch)
 
 Markers are taken from icones8.com(https://icons8.com/icons).
-This website is responsive and has been tested using using "Responsive Design Mode" from Firefox Web Developer and also using Chrome DevTools.
+
+This website is responsive and has been tested using "Responsive Design Mode" from Firefox Web Developer and also using Chrome DevTools.
 
 ### Wireframes
 
