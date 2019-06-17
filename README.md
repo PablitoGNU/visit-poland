@@ -1,6 +1,6 @@
 ## Visit Poland
 
-## This is my offical website to promote Poland as a touristics Destination. ##
+## This is my offical website to promote Poland as a touristics destination. ##
 
 
 ### UX
@@ -12,9 +12,8 @@
 ### Home Page 
 
 White&Red is placed on dark background.These two colors are defined in the Polish constitution as the national colors.
-Website contains a bit of history of Poland, some sample pictures of places to see and of popular dishes. 
-Additionally users have ability to search for their holiday destination in Poland. 
-Users are able to choose destination city, find tourist attractions, find accommodation, find bars and restaurants.
+Website contains a bit of history of Poland, a few  sample pictures of place to see and dishes to taste.
+Users have ability to search for their holiday destination in Poland, find tourist attractions, find accommodation, find bars and restaurants.
 
 ### Details
 
@@ -27,8 +26,8 @@ Users are able to choose destination city, find tourist attractions, find accomm
 
 ### Users Stories
 
-I wanted to keep the website clean and simple as much as possible. My idea was to use just two colors, spent some time thinking about the background color. Finally I have decided for dark background.
-I did not expect that the final effect will look so good. To keep the website clean I used Bootstrap carousel plugin for small screens, orginal breakpoint was set to 481px but it was increased to 501px as per advice from mentor.
+I wanted to keep the website clean and simple as much as possible. My idea was to use just two colors, spent some time thinking what I should choose for the background. 
+I did not expect that the final effect will look so good on the dark background. To keep the website clean I used Bootstrap carousel plugin for small screens, orginal breakpoint was set to 481px but it was increased to 501px as per advice from mentor.
 I've tried to use sticky header(fixed) when scrolling down/up but I didn't like it so decided to use simple up arrow in the city and home icon in footer to provide movement by click, Scroll behavior smooth is implemented.
 Color/font style in the marker Infowindow has been changed to keep consistency across the website.
 To keep the same layout of the website on the small screen, media Q is implemented to center the header.
